@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebacolores</title>
+    <style>
+         #padre1 {
+            display: flex;
+            justify-content: space-around;
+            flex-direction:row;
+            flex-wrap:wrap-reverse;
+
+
+        }
+      #padre1 div{
+        width: 150px;
+        height: 150px;
+        margin: 100px 200px;
+      }
+       #hijo1{
+        background-color: rgb(102, 54, 192);
+        color: rgb(226, 43, 174)#fff;
+       } 
+       #hijo2{
+        background-color: rgb(67, 191, 84);
+        color: rgb(226, 80, 43)#fff;
+       }
+        
+        #hijo3{
+            background-color: rgb(73, 78, 78);
+            color: rgb(226, 43, 214)#fff;
+       }
+    
+     
+       #hijo4{
+        background-color: rgb(112, 191, 67);
+        color: rgb(183, 226, 43)#fff;
+       }
+
+       
+        #hijo5{
+            background-color: rgb(5, 16, 16);
+            color: rgb(8, 10, 148)#fff;
+
+       }
+    </style>
+</head>
+<body>
+<!-- seccion padre1 contenedor de tres hijos div-->
+    <div id="padre1" >
+
+        <div id="hijo1">caja</div>
+        <div id="hijo2">caja</div>
+        <div id="hijo3">caja</div>
+        <div id="hijo4">caja</div>
+        <div id="hijo5">caja</div>
+    </div>
+</body>
+</html>
